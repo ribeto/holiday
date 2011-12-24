@@ -1,0 +1,32 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles/main.css" />
+	<link href='http://fonts.googleapis.com/css?family=Leckerli+One' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" language="Javascript" src="scripts/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" language="Javascript" src="scripts/three.js"></script>
+	<script type="text/javascript" language="Javascript" src="scripts/stage.js"></script>
+	<script type="text/javascript" language="Javascript" src="scripts/xmasTree.js"></script>
+	<script type="text/javascript" language="Javascript" src="scripts/ornament.js"></script>
+	<script type="text/javascript" language="Javascript" src="scripts/popup.js"></script>
+	<script type="text/javascript" language="Javascript" src="scripts/star.js"></script>
+	<title>Happy Holidays</title>
+</head>
+<body>
+	<audio id="audioPlayer" autoplay="autoplay" preload="auto" autobuffer loop="loop"> 
+	  <source src="assets/media/rudolph.mp3" />
+	  <source src="assets/media/rudolph.ogg" />
+	  <!-- Billy May - Rudolph the red-nosed reindeer mambo (malibu remix)-->
+	</audio>
+	<div id="mainDiv">
+		<p id="title">Happy Holidays!</p>
+		<canvas id="stage"></canvas>
+		<canvas id="xmasTree"></canvas>
+		<canvas id="snow"></canvas>
+	</div>
+	<div id="settings">
+		<div class="button"><img id="playPauseButton" src="assets/buttons/pauseButton.png" /></div>
+		<div class="button"><img id="snowButton" src="assets/buttons/stopSnowButton.png" /></div>
+		<div class="button"><img id="videoButton" src="assets/buttons/videoButton.png"></div>
+	</div>
+</body>
+</html>
